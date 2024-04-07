@@ -1,0 +1,92 @@
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header{
+    background-color: #898080;
+    height: 25px;
+    width: 100%;
+    margin-bottom: -22px;
+    top: 0;
+  }
+  
+  .content1{
+    background-color: #dedede;
+    height: 330px;
+    bottom: 0;
+    top: 0;
+    margin-bottom: -22px;
+  }
+  .content1 img{
+    width: 35vw;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .content1 h1{
+    margin-left: 1em;
+    margin-right: 40vw;
+  }
+  .content1 p{
+    margin-right: 40vw;
+    margin-left: 3em;
+  }
+  
+  .content2{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+  }
+  .box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content2 img{
+    width: 50vw;
+    max-width: 500px;
+    max-height: 150px;
+    margin-top: 1em;
+  }
+  .content2 h3{
+    margin-left: 5%;
+    margin-right: 10%;
+  }
+  .content2_panel h2{
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  .content3_panel{
+    margin-top: 0;
+    background-color: silver;
+  }
+  .content3{
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+  }
+  .content3 img{
+    width: 50vw;
+    height: 50vw;
+    max-width: 500px;
+    max-height: 700px;
+    margin-top: 1em;
+    margin-right: 1em;
+  }
+  .content3 h3{
+    margin-right: 2%;
+    margin-left: 10%;
+  }
+  .content3_panel h2{
+    margin-left: 5em;
+    margin-top: 0em;
+    /* margin-bottom: 0em; Почему весь диф движется*/
+  }
+  
